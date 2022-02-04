@@ -102,10 +102,6 @@ void Merge_Runs_in_Main_Memory(char *emp_file){
     vector<string> tmp_files;
     ifstream *open_file[19];
 
-
-
-
-
     //store and open tmp files.
     for(int i = 0; i < 19; i++) {
         tmp_files.push_back("tmp" + to_string(i) + ".csv");
@@ -113,22 +109,10 @@ void Merge_Runs_in_Main_Memory(char *emp_file){
     }
 
 
-
-
-
-
-
-
-
     //close all tmp files.
     for(int i = 0; i < 19; i++) {
      //   open_file[i]->close();
     }
-
-
-
-
-
 
     return;
 }
